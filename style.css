@@ -1,7 +1,281 @@
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url(assets/fonts/static/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Inter-VariableFont_wght';
+  src: url(assets/fonts/Inter-VariableFont_wght.ttf);
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 1em;
   text-align: center;
+  min-height: 100px;
+  font-family: 'Inter-Bold';
+  margin-top: 1em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+body{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  min-height: 80px;
+  align-items: center;
+}
+
+header nav ul{
+  display: inline-flex;
+  list-style: none;
+}
+
+header ul li a{
+  margin-left: 2em;
+  text-decoration: none;
+  font-family: 'Inter-Regular';
+  color: hsl(236, 13%, 42%);
+}
+
+header ul li a:hover, .lower-item-text h3:hover{
+  color: hsl(5, 85%, 63%);
+}
+
+.upper-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "hero hero news"
+  "hero hero news"
+  "hero hero news";
+  grid-gap: 1.5em;
+  /* height: 500px; */
+  margin: 2em 0;
+
+  
+}
+
+.hero{
+  grid-area: hero;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+
+}
+
+.hero-img{
+  grid-column: 1/-1;
+}
+
+.hero-cta{
+  grid-column: 1/ span 1;
+  font-size: clamp(1.8em, 2.5vw, 4em);
+  font-family: 'Inter-Bold';
+  padding-right: 1em;
+}
+
+.hero-text{
+  grid-column: 2/ span 1;
+  font-family: 'Inter-Regular';
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 2em;
+  color:  hsl(236, 13%, 42%);
+
+}
+
+.hero-btn{
+  width: 50%;
+  padding: 1em 0;
+  background-color: hsl(5, 85%, 63%) ;
+  border: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Inter-Bold';
+  color: hsl(233, 8%, 79%);
+}
+
+
+
+
+.news{
+  grid-area: news;
+  display: grid;
+  grid-template-rows:80px repeat(3, 1fr);
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 1.5em;
+}
+
+.news-item{
+  border-bottom: 1px solid hsla(233, 8%, 79%, 0.521);
+  padding: 2em 0;
+  font-family: 'Inter';
+}
+
+.news-item:nth-child(4){
+  border: none;
+}
+
+.news-item h2{
+  font-family: 'Inter-Bold';
+  margin-bottom: 1em;
+}
+
+.news-item p{
+  line-height: 1.8em;
+  font-weight: 400;
+  color: hsl(233, 8%, 79%);
+}
+
+.news .news-head{
+  color: hsl(35, 77%, 62%);
+  font-size: 3em;
+  font-family: 'Inter-Bold';
+}
+
+
+.lower-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5em;
+  margin: 5em 0;
+}
+
+.lower-item{
+  display: grid;
+  grid-template-areas:
+  "item-img item-text"
+  "item-img item-text" ;
+  gap: 2em;
+}
+
+.lower-item img{
+  grid-area: item-img;
+}
+
+
+.lower-item-text{
+  grid-area: item-text;
+  display: grid;
+  justify-content: space-between; 
+}
+
+.lower-item-text h2{
+  color: hsl(233, 8%, 79%);
+  font-size: 4em;
+  font-family: 'Inter-Bold';
+}
+.lower-item-text h3{
+  color: hsl(240, 100%, 5%);
+  align-self: center;
+  font-size: 1.3em;
+  font-family: 'Inter-Bold';
+  cursor: pointer;
+}
+
+.lower-item-text p{
+  color: hsl(236, 13%, 42%);
+  align-self: end;
+  font-family: 'Inter-Regular';
+  line-height: 1.6em;
+}
+
+.hamburger{
+  display: none;
+}
+
+/* Media width of 375px */
+
+@media screen and (max-width: 375px) {
+
+
+  .upper-container{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "hero"
+    "news";
+  }
+  .hero{
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px auto auto;
+    gap: 1em;
+  }
+
+  .hero-img{
+    grid-column: 1/-1;
+    height: 100%;
+  }
+  .hero-cta{
+    grid-column: 1/-1;
+    grid-row: 2/ span 1;
+
+  }
+  .hero-btn{
+    margin-top: 1em;
+    padding:0.8em 0;
+  }
+
+  .hero-text{
+    grid-column: 1/-1;
+    grid-row: 3/ span 1;
+  }
+  
+  
+  .news{
+    grid-template-rows: 90px 1fr 1fr 1fr;
+  }
+  .news-item{
+    padding: 1em 0;
+  }
+  .news-item h2{
+    font-size: 1.2em;
+  }
+  .news-item p{
+    font-size: 0.8em;
+  }
+  .news .news-head{
+    font-size: 2em;
+  }
+  .lower-container{
+    grid-template-columns: 1fr;
+  }
+  .lower-item img{
+    height: 100%;
+    width: 100%;
+  }
+  .lower-item-text h2{
+    font-size: 1.8em;
+    padding-bottom: 1em;
+  }
+  .lower-item-text h3{
+    font-size: 0.8em;
+    padding-bottom: 1em;
+  }
+  .lower-item-text p{
+    font-size: 0.8em;
+  }
 }
