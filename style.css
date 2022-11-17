@@ -90,7 +90,7 @@ header ul li a:hover, .lower-item-text h3:hover{
 
 .hero-cta{
   grid-column: 1/ span 1;
-  font-size: clamp(1.8em, 2.5vw, 4em);
+  font-size: 4em;
   font-family: 'Inter-Bold';
   padding-right: 1em;
 }
@@ -232,6 +232,7 @@ header ul li a:hover, .lower-item-text h3:hover{
   .hero-cta{
     grid-column: 1/-1;
     grid-row: 2/ span 1;
+    font-size: 2em;
 
   }
   .hero-btn{
