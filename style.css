@@ -128,7 +128,7 @@ header ul li a:hover, .lower-item-text h3:hover{
   grid-template-rows:80px repeat(3, 1fr);
   background-color: hsl(240, 100%, 5%);
   color: white;
-  padding: 1.5em;
+  padding: 2.2em 1.5em; 
 }
 
 .news-item{
