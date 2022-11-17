@@ -39,15 +39,14 @@ Mobile => Not yet done.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://your-solution-url.com) => Not yet done.
+- Live Site URL: [https://dapoadedire.github.io/news-homepage-main/](https://dapoadedire.github.io/news-homepage-main/)
 
 
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
