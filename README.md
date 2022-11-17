@@ -74,5 +74,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Dapo Adedire](https://www.dapoadedire.tech)
 - Frontend Mentor - [@dapoadedire](https://www.frontendmentor.io/profile/dapoadedire)
-- Twitter - [@dapoadedire](https://www.twitter.com/dapoadedire)
+- Twitter - [@dapoadedire](https://www.twitter.com/dapo_adedire)
 
