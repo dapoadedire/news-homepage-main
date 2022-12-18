@@ -170,12 +170,13 @@ header ul li a:hover, .lower-item-text h3:hover{
   display: grid;
   grid-template-areas:
   "item-img item-text"
-  "item-img item-text" ;
+  "item-img item-text";
   gap: 2em;
 }
 
 .lower-item img{
   grid-area: item-img;
+  height: 100%;
 }
 
 
@@ -202,7 +203,7 @@ header ul li a:hover, .lower-item-text h3:hover{
   color: hsl(236, 13%, 42%);
   align-self: end;
   font-family: 'Inter-Regular';
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 .hamburger{
