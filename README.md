@@ -42,8 +42,8 @@ Mobile => Not yet done.
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com) => Not yet done.
-- Live Site URL: [https://dapoadedire.github.io/news-homepage-main/](https://news-homepage-22.netlify.app/)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/ec086c44-be26-405e-ad11-d03d1fae6f50/deploy-status)](https://app.netlify.com/sites/news-homepage-22/deploys)
+- Live Site URL: [https://dapoadedire.github.io/news-homepage-main/](https://dapoadedire.github.io/news-homepage-main/)
+
 
 
 ### Built with
