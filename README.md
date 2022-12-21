@@ -46,7 +46,7 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com) => Not yet done.
+- Solution URL: [https://news-homepage-22.netlify.app/](https://news-homepage-22.netlify.app/)
 - Live Site URL: [https://dapoadedire.github.io/news-homepage-main/](https://dapoadedire.github.io/news-homepage-main/)
 
 
@@ -57,6 +57,7 @@ Mobile
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
+- Javascript
 
 
 *
@@ -69,8 +70,7 @@ Building Mobile Navigation and menu bar with Javascript
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+I want to focus on building navbars with javascript, and more accessibility.
 
 
 ### Useful resources
