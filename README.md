@@ -35,9 +35,14 @@ Users should be able to:
 
 Desktop 
 
-![image](https://user-images.githubusercontent.com/95668340/202486417-3390f3fd-d8b9-45c0-a840-c7b5cd85a1e9.png)
+![image](https://user-images.githubusercontent.com/95668340/208903647-d5113ae7-ad97-42ed-8011-e73e10c7d683.png)
 
-Mobile => Not yet done.
+
+
+Mobile
+![127 0 0 1_5500_index html(iPhone 6_7_8) (1)](https://user-images.githubusercontent.com/95668340/208903583-5d11f4a1-e5f2-402a-b0eb-551130a4b15c.png)
+
+
 
 ### Links
 
@@ -58,6 +63,8 @@ Mobile => Not yet done.
 ### What I learned
 
 I learned more about grid and flexbox layout.
+Responsiveness.
+Building Mobile Navigation and menu bar with Javascript
 
 
 ### Continued development
