@@ -210,7 +210,7 @@ header ul li a:hover,
 
 /* Media width of 375px */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
 
   .icon-menu-btn {
     display: flex;
